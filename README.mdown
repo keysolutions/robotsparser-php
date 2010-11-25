@@ -6,7 +6,7 @@ RobotsParser is a PHP class which parses the contents of a robots.txt file to de
 Example Usage
 -------------
 
-$parser = new RobotsParser($contents_of_robots_txt);
-$parser->disallowed_paths();
+	$parser = new RobotsParser($contents_of_robots_txt);
+	$parser->disallowed_paths();
 
 The disallowed_paths function returns an array of disallowed paths which match the given user agent.
